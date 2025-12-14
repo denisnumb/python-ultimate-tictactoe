@@ -1,51 +1,51 @@
 # Tic Tac Toe²
 ---
-# Правила игры в Tic Tac Toe².
+# Rules of the game Tic Tac Toe².
 
-Игровое поле состоит из 9 полей, 3 на 3 клетки:
+The playing field consists of 9 fields, 3 by 3 cells:
 
 ![image](https://github.com/denisnumb/tictactoe_extended/assets/108686703/4ea964c0-47c1-4a32-91db-3e5ba66b3d7d)
 
-Каждое поле является отдельным игровым полем в "крестики-нолики", обособленным по отношению к другим.
+Each field is a separate tic-tac-toe playing field, separate from the others.
 
 ---
-# Начало игры
+# Start of the game
 
-* В игре принимают участие 2 игрока, которые делаю ходы по очереди - рисуют знаки в свободных клетках.
+* The game involves 2 players who take turns making moves - drawing signs in free cells.
 
-* Игра начинается с выбора 1-ым игроком, 1-го из 9 полей с которого начнётся игра.
+* The game begins with the 1st player choosing 1 of 9 fields from which the game will begin.
 
 ---
-# Правила игры
+# Rules of the game
 
-1. Переход хода
+1. Transition
 
-   * При выборе позиции клетки ход переходит в поле той же позиции:
+   * When choosing a cell position, the move goes to the field of the same position:
 
 ![image](https://github.com/denisnumb/tictactoe_extended/assets/108686703/686407dd-87e0-4462-a931-f406a3318ee3)
 
-2. Блокировка полей
+2. Locking fields
 
-   * При  победе одного из игроков или заполнении поля , поле блокируется и принимает значение победителя или ничьей.**(Пример 1)**
+   * When one of the players wins or the field is filled, the field is blocked and takes the value of the winner or draw.**(Example 1)**
 
-   * При переходе хода на заблокированное поле, ход переходит на ближайшее свободное поле:
+   * When a move moves to a blocked field, the move moves to the nearest free field:
 
-  *Пример 1*
+  *Example 1*
 
 ![image](https://github.com/denisnumb/tictactoe_extended/assets/108686703/33304e86-4acc-4492-aaec-496c1f56d9e4)
 
 ---
-# Конец игры
+# End of the game
 
-* Игра продолжается пока заполненые поля одного игрока не образуют ряд:
+* The game continues until the filled fields of one player form a row:
 
 ![image](https://github.com/denisnumb/tictactoe_extended/assets/108686703/18782ab6-decd-411c-9a4b-b128c398566b)
 
-*Победили крестики*
+*The crosses won*
 
 
-* При отсутствии победного ряда полей побеждает игрок с большим количеством заполненных полей:
+* If there is no winning row of fields, the player with the most filled fields wins:
 
 ![image](https://github.com/denisnumb/tictactoe_extended/assets/108686703/e76cb306-94ca-40db-b962-98729d9d1bfd)
 
-*Победили крестики*
+*The crosses won*
